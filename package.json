@@ -1,0 +1,27 @@
+{
+  "name": "shadcnmdc",
+  "version": "0.1.0",
+  "description": "dynamic colors system for shadcn-ui",
+  "main": "dist/shadcnmdc.js",
+  "scripts": {
+    "test": "ts-node index.ts",
+    "build": "tsc -p tsconfig.json",
+    "prepare": "npm run build",
+    "typo": "tsc --noEmit"
+  },
+  "keywords": [
+    "shadcn"
+  ],
+  "author": "Crysta1221",
+  "license": "MIT",
+  "dependencies": {
+    "color": "^4.2.3",
+    "fast-average-color-node": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/color": "^3.0.6",
+    "@types/node": "^20.12.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
